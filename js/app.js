@@ -67,7 +67,7 @@ document.getElementById('d').innerHTML = '0' +  days;
 
 }
 
-//  FUNCIONAR PARA PONER EN MARCHA EL TEMPORIZADOR
+//  FUNCION PARA PONER EN MARCHA EL TEMPORIZADOR
 function iniciar(){
 
 if(locked == false){
@@ -80,13 +80,13 @@ if(locked == false){
 
 }
 
-
+// FUNCION PARA DETENER EL TEMPORIZADOR
 function detener(){
 	clearInterval(iniciado);
 	locked = false;
 }
 
-	
+// FUNCION PARA REINICIAR EL TEMPORIZADOR	
 function reiniciar(){
 	location.reload();
 }
