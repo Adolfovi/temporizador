@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>TEMPORIZADOR</title>
+	<link rel="stylesheet" type="text/css" href="css/s.css">
+	<link rel="shortcut icon" href="img/tempo.png">
+</head>
+<body onload="start()">
+	<script type="text/javascript" src="js/app.js"></script>
+<div id="container">
+	<div id="title">
+		TEMPORIZADOR
+	</div>
+
+<span id="subtitle">DIAS > HORAS > MINUTOS > SEGUNDOS</span>
+<div id="crono">
+
+<span id="d" class="times"></span>
+<span id="h" class="times"></span>
+<span id="m" class="times"></span>
+<span id="s" class="times"></span>	
+</div>
+
+
+
+<div id="menu">
+	
+<button onclick="iniciar()" class="spacing">INICIAR</button>
+
+<button onclick="detener()" class="spacing">PAUSAR</button>
+
+
+<button onclick="reiniciar()" class="spacing">REINICIAR</button>
+
+</div>
+
+</div>
+</body>
+</html>
