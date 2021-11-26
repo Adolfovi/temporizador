@@ -15,15 +15,6 @@ document.getElementById('s').innerHTML = '0' + seconds;
 }
 
 
-
-
-function tt(){
-	console.log("tu puta madre");
-	
-}
-
-
-
 // FUNCION QUE INDICA EL FUNCIONAMIENTO DEL TEMPORIZADOR
 function incr(){
 
